@@ -1,0 +1,4 @@
+Things I installed in venv:
+1. pip install django
+2. pip install requests
+3. pip install django-mathfilters
