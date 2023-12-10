@@ -4,11 +4,11 @@
       {
         "src": "Diet_planner/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.10.7" }
       },
       {
         "src": "build_files.sh",
-        "use": "@vercel/static-build",
+        "use": "@vercel/static",
         "config": {
           "distDir": "staticfiles_build"
         }
